@@ -1,0 +1,15 @@
+<?php
+// Add these parts to your Laravel app/Models/User.php
+
+// in class User extends Authenticatable
+protected $fillable = [
+    'name',
+    'email',
+    'password',
+    'role',
+];
+
+public function favoriteRecipes()
+{
+    return $this->hasMany(FavoriteRecipe::class);
+}

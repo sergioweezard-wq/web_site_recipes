@@ -1,0 +1,86 @@
+html {
+  font-size: 16px;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 0;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.navbar {
+  background-color: #ffffff !important;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #212529 !important;
+}
+
+.navbar .nav-link:hover {
+  color: #0d6efd !important;
+}
+
+.footer {
+  margin-top: auto;
+  background-color: #ffffff;
+}
+
+.card {
+  border-radius: 0.5rem;
+}
+
+.nav-search-input {
+  min-width: 220px;
+}
+
+.admin-action-col {
+  width: 220px;
+}
+
+.recipe-card-image {
+  height: 190px;
+  object-fit: cover;
+}
+
+.recipe-photo-edit {
+  max-height: 200px;
+  width: auto;
+  object-fit: cover;
+}
+
+.recipe-photo-large {
+  max-height: 420px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.step-photo-preview {
+  max-height: 340px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.nutrition-box {
+  background: #fff;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  border: 1px solid #dee2e6;
+}
+
+.nutrition-value {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+.nutrition-label {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+.recipe-steps-list {
+  padding-left: 1.25rem;
+}
